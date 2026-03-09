@@ -1,0 +1,1 @@
+Replicare pagina con piano prezzi,capace di adattarsi a diverse risoluzioni.
