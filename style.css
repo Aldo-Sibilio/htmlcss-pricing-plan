@@ -228,3 +228,36 @@
    background-color: #2b2b2b;
    color: #9ee2a8;
 }
+
+@media screen and (min-width: 1024px) {
+
+  .pricing{
+    max-width: 1200px;
+    padding: 40px 32px 60px;
+  }
+
+  .pricing-header{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .title{
+    max-width: 700px;
+  }
+
+  .title h1{
+    font-size: 64px;
+  }
+
+  .plans{
+    flex-direction: row;
+    align-items: stretch;
+    gap: 32px;
+  }
+
+  .plan{
+    flex: 1;
+  }
+
+}
